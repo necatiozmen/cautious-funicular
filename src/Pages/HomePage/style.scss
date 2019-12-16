@@ -1,0 +1,26 @@
+.home {
+	background-color: aliceblue;
+	display: flex;
+
+	height: 100vh;
+	position: relative;
+	img {
+		width: 100px;
+	}
+
+	&__text-container {
+		display: flex;
+		width: 100%;
+		align-self: center;
+		justify-content: center;
+		align-items: center;
+		.text-1 {
+			color: rebeccapurple;
+		}
+	}
+	.box-test {
+		width: 50px;
+		height: 90px;
+		background-color: rosybrown;
+	}
+}
